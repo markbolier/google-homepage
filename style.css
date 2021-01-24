@@ -1,0 +1,62 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+    font-size: small;
+}
+
+.top-bar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.top-bar h2 {
+    font-size: 13px;
+    line-heigth: 24px;
+    text-align: right;
+    color: rgba(0,0,0,0.87);
+    font-weight: lighter;
+}
+
+.nav {
+    padding: 15px;
+} 
+
+.top-bar h2 a {
+    color: rgba(0,0,0,0.87);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    vertical-align: middle;
+    white-space: nowrap;
+    font-weight: lighter;
+}
+
+.search-bar-span {
+    display: block;
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+    width: auto;
+}
+
+.span-hp-logo {
+    heigth: 100px;
+    margin-top: 47px;
+
+}
+
+#search-tool {
+    margin-top: 3px;
+    color: #9aa06a6;
+    heigth: 20px;
+    width: 20px;
+}
