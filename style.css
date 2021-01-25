@@ -13,12 +13,16 @@ html, body {
     align-items: center;
 }
 
-.top-bar h2 {
+.nav-text {
     font-size: 13px;
     line-heigth: 24px;
     text-align: right;
     color: rgba(0,0,0,0.87);
     font-weight: lighter;
+}
+
+.nav-text:hover {
+    text-decoration: underline;
 }
 
 .nav {
@@ -35,28 +39,92 @@ html, body {
     font-weight: lighter;
 }
 
-.search-bar-span {
-    display: block;
-    background: #fff;
+.span-hp-logo {
     display: flex;
+    justify-content: center;
+    height: auto;
+    width: auto;
+}
+
+#hplogo {
+    padding: 109px, 0px, 0px;
+    height: 92px;
+    width: 272px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    cursor: pointer;
+}
+
+.search-bar-span {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
     border: 1px solid #dfe1e5;
     box-shadow: none;
     border-radius: 24px;
     height: 44px;
     margin: 0 auto;
-    width: 482px;
-    width: auto;
+    max-width: 600px;
 }
 
-.span-hp-logo {
-    heigth: 100px;
-    margin-top: 47px;
-
+#mic-icon {
+    height: 24px;
+    width: 24px;
+    margin-right: 10px;
+    margin-top: 3px;
+    cursor: pointer;
 }
 
 #search-tool {
     margin-top: 3px;
-    color: #9aa06a6;
-    heigth: 20px;
+    color: #a5a7aa;
+    height: 20px;
     width: 20px;
+    margin-left: 10px;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.span-buttons {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    padding: 5px 15px 5px 15px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 30px 10px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.footer {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    background-color: #f2f2f2;
+    border-top: 1px solid #dadce0;
+    font-size: 10pt;
+}
+
+.footer-text {
+    
 }
